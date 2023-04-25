@@ -172,6 +172,7 @@ scoop install komorebi
 # if using winget
 winget install LGUG2Z.whkd
 winget install LGUG2Z.komorebi
+# add install location to your %PATH%, default is "C:\Program Files\komorebi\bin"
 
 # save the latest generated app-specific config tweaks and fixes to ~/komorebi.generated.ps1
 iwr https://raw.githubusercontent.com/LGUG2Z/komorebi/master/komorebi.generated.ps1 -OutFile $Env:USERPROFILE\komorebi.generated.ps1
